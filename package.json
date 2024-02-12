@@ -1,0 +1,44 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.58.0",
+        "sass-loader": "^12.1.0",
+        "vue-loader": "^16.8.3"
+    },
+    "dependencies": {
+        "@chenfengyuan/vue-barcode": "^2.0.2",
+        "@formkit/vue": "^1.1.0-e5c1903",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.1.2",
+        "@inertiajs/vue3": "^1.0.0",
+        "@suadelabs/vue3-multiselect": "^1.0.2",
+        "bootstrap-vue-3": "^0.4.15",
+        "i": "^0.3.7",
+        "jsbarcode": "^3.11.6",
+        "maska": "^2.1.10",
+        "npm": "^9.4.2",
+        "prismjs": "^1.29.0",
+        "qrcode-vue3": "^1.6.8",
+        "simplebar-vue3": "^0.2.0",
+        "v-money": "^0.8.1",
+        "vue": "^3.2.47",
+        "vue-datepicker-next": "^1.0.2",
+        "vue-flatpickr-component": "^11.0.3",
+        "vue3-apexcharts": "^1.4.1",
+        "vue3-loading-overlay": "^0.0.0"
+    }
+}
